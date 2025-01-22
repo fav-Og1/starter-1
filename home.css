@@ -1,3 +1,8 @@
+.body{
+    background-color: rgba(235, 229, 229, 0.808);
+    height: 5000px;
+}
+
 .header-searchBar{
     background-color: white;
     position: fixed;
@@ -6,5 +11,55 @@
     top: 0px;
     border-color: black;
     border-style: solid;
-    height: 50px;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebar-menu{
+    background-color: white;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 1000px;
+    width:220px ;
+}
+
+.right-side{
+    background-color: white;
+    position: absolute;
+    right: 20px;
+    width: 70px;
+    height:max-content ;
+    border-color:black;
+    border-width: 1px;
+    border-style: solid;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.not-bell-icon{
+   width: 15px; 
+}
+
+.user-face-icon{
+    width: 26px; ;
+    height: auto;
+    
+}
+
+.notification-bell{
+    
+}
+
+.user-icon{
+   border-radius: 26px;
+   border-color: red;
+   border-style: solid;
+   border-width: 2px;
+   width: 26px;
+   height: 26px;
 }
