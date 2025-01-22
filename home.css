@@ -9,9 +9,7 @@
     left: 220px;
     right: 0px;
     top: 0px;
-    border-color: black;
-    border-style: solid;
-    height: 65px;
+    height: 90px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,23 +28,23 @@
     background-color: white;
     position: absolute;
     right: 20px;
-    width: 70px;
+    width: 90px;
     height:max-content ;
-    border-color:black;
+   /*border-color:black;
     border-width: 1px;
-    border-style: solid;
+    border-style: solid;*/
 display: flex;
 flex-direction: row;
-justify-content: space-evenly;
+justify-content: space-between;
 align-items: center;
 }
 
 .not-bell-icon{
-   width: 15px; 
+   width: 18px; 
 }
 
 .user-face-icon{
-    width: 26px; ;
+    width: 100%;
     height: auto;
     
 }
@@ -56,10 +54,41 @@ align-items: center;
 }
 
 .user-icon{
-   border-radius: 26px;
-   border-color: red;
+    width: 36px;
+    height: 36px;
+   border-radius: 32px;
+  /* border-color: red;
    border-style: solid;
-   border-width: 2px;
-   width: 26px;
-   height: 26px;
+   border-width: 2px;*/
+ overflow: hidden;
+ 
 }
+
+.search-bar{
+width: 400px;
+height: 45px;
+border-color:rgba(235, 229, 229, 0.808);
+border-style: solid;
+border-width: 2px;
+border-radius: 8px;
+padding-left: 35px;
+font-size: 14px;
+}
+
+.search-input{
+    display: flex;
+    position: absolute;
+}
+
+.search-icon{
+    width: 24px;
+}
+
+.search-icon-box{
+    position: relative;
+    left: 30px;
+    
+    display: flex;
+    align-items: center;
+}
+
